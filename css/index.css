@@ -1,0 +1,89 @@
+/* ASPECTOS PRINCIPALES */
+
+body {
+background-color:black;
+}
+
+.contenedor {
+display: flex;
+align-content: center;
+justify-content: center;
+
+
+}
+#contenido {
+margin-top: 25vh;
+text-align: center;
+justify-content: center;
+
+}
+#bienvenida h1 {
+font-family: Helvetica, sans-serif;
+color: white;
+margin-bottom: 0em;
+}
+
+#bienvenida h4 {
+color:limegreen;
+font-family: 'Share Tech Mono', monospace;
+font-size: 1em;
+font-weight: 100;
+text-transform: uppercase;
+margin-top: 0.5em;
+margin-bottom: 4em;
+}
+
+
+
+#suscripcionMail a {
+font-family: Helvetica, sans-serif;
+color: black;
+font-family: 'Share Tech Mono', monospace;
+text-decoration: none;
+}
+    
+
+#suscripcionMail p {
+font-family: Helvetica, sans-serif;
+color: white;
+font-weight: lighter;
+font-size: small;
+margin-bottom: 0.5em;
+}
+
+#suscripcionMail button {
+font-family: 'Share Tech Mono', monospace;
+background-color:limegreen;
+border: none;
+border-radius: 0.5em;
+padding: 0.5em;
+margin-top: 0.5em;
+}
+
+#suscripcionMail input {
+font-family: Helvetica, sans-serif;
+background-color: black;
+border-style: solid;
+color: limegreen;
+border-color: limegreen;
+border-radius: 0.5em;
+padding: 0.5em;
+}
+
+#append {
+color: limegreen;
+font-family: 'Share Tech Mono', monospace;
+width: fit-content;
+margin-top: 2em;
+margin-right: 0;
+margin-left: 35vw;
+text-align: center;
+
+}
+
+#append {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
