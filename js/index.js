@@ -18,7 +18,7 @@ $("#btn1").click(() => {
             agregado.email = email;
             direccionMail.push(agregado);
             console.log(direccionMail)
-            $("suscripcion").append(`<div id="append">
+            $("#suscripcion").append(`<div id="append">
 ¡Felicitaciones ${agregado.email}! <br> ¡Ahora estás suscripto!
 </div>`);
         }  
