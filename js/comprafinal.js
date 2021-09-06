@@ -1,8 +1,7 @@
-const URLGET   = "https://jsonplaceholder.typicode.com/posts"
-
 // Definimos DATOS a enviar
 
-let compraFinal = [{nombre: Rodrigo, apellido: Gonzalez}]
+let compraFinal = [{nombre: "Rodrigo", apellido: "Gonzalez"}]
+
 
 // Creamos evento para el boton
 $("#btnpagar").click(() => { 
@@ -15,14 +14,13 @@ $("#btnpagar").click(() => {
  
     $.post(URLGET, compraFinal ,(respuesta, estado) => {
             if(estado === "success"){
-            const agregado = {nombre: ""}
-            agregado.nombre = nombre;
-            const agregado = {apellido: ""}
-            agregado.apellido = apellido;
-            compraFinal.push(agregado);
+            let nuevoUsuario = {nombre:"", apellido:""}
+            nuevoUsuario.nombre = nombre;
+            nuevoUsuario.apellido = apellido;
+            compraFinal.push(nuevoUsuario);
             console.log(compraFinal)
             $("body").append(`<div id="append2">
-¡Gracias ${agregado.nombre} ${agregado.apellido} por comprar en Ticketplus!
+¡Gracias ${nuevoUsuario.nombre} ${nuevoUsuario.apellido} por comprar en Ticketplus!
 </div>`);
         }  
 

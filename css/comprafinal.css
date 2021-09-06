@@ -34,8 +34,9 @@ margin-bottom: 4em;
 
 #datosPago {
 width: fit-content;
-margin-right: 0;
-margin-left: 12vw;
+margin: auto;
+text-align: center;
+
 
 }
 
@@ -64,23 +65,17 @@ margin-top: 0.5em;
 #botones a {
 text-decoration: none;
 color: black;
+margin-bottom: 3em;
 }
 
 #append2 {
     color: limegreen;
     font-family: 'Share Tech Mono', monospace;
     width: fit-content;
+    margin: auto;
     margin-top: 2em;
-    margin-right: 0;
-    margin-left: 25vw;
     text-align: center;
     
     }
     
-     #append2 {
-        display: flex;
-        align-content: center;
-        justify-content: center;
-    }
-
 
